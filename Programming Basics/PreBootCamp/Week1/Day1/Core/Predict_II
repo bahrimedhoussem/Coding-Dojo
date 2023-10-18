@@ -1,0 +1,27 @@
+//code snippet1 
+function displayContactInfo() {
+    var auntContactInfo = ["Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 12345];
+    //("paula,"smith","1234 main street","st.louis","MO","12345")
+    console.log(auntContactInfo);
+}
+//code snipet 2
+function displayGrocerylist() {
+    var produce = ["apples", "oranges"];
+    //"apples ,oranges"
+    var frozen = ["broccoli", "ice cream"];
+//("broccoli , ice cream")
+    frozen.push("hashbrowns");
+//("broccoli,ice cream,hashbrowns")
+    console.log(frozen);
+}
+//code snipet 3 
+var movieLibrary = ["Bambi", "E.T.", "Toy Story"];
+//("bambi" ,"ET","Tony Story")
+movieLibrary.push("Zoro");
+//("bambi" ,"ET","Tony Story","zoro")
+movieLibrary[1] = "Beetlejuice";
+//("bambi" ,"Beetlejuice","Tony Story","zoro")
+console.log(movieLibrary);
+
+
+
