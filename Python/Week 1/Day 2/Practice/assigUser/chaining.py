@@ -31,14 +31,7 @@ user3=User("bob","johnson","bobjohnson@gmail.com",32,4000)
 
 
 
-user1.display_info()
-user1.spend_points(50)  
-user1.display_info()
-warrior.display_info()
-warrior.spend_points(1000)
-warrior.enroll()
-warrior.display_info()
-user2.display_info()
-user2.spend_points(80)
-user2.display_info()
+user1.display_info().spend_points(50).display_info()
+warrior.display_info().spend_points(1000).enroll().display_info()
+user2.display_info().spend_points(80).display_info()
 user3.display_info()
