@@ -23,8 +23,12 @@ class User:
     
     @classmethod
     def save(cls, data):
-        query = """INSERT INTO users (first_name,last_name,email)
+        query = """INSERT INTO users (first_name,last_name,email,actions)
     		VALUES (%(first_name)s,%(last_name)s,%(email)s);"""
         result = connectToMySQL(cls.DB).query_db(query,data)
         return result
-    
+    @classmethod
+    def delete(cls, user_id):
+        query  = "DELETE FROM friends WHERE id = %(id)s;"
+        data = {"id": user_id}
+        return connectToMySQL(cls.DB).query_db(query, data)

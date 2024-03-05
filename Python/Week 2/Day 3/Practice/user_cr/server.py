@@ -18,6 +18,10 @@ def new():
 def create():
     User.save(request.form)
     return redirect('/')
+@app.route('/friends/remove/<int:friend_id>')
+def remove(user_id):
+    User.delete(user_id)
+    return redirect('/')
 
 
 
