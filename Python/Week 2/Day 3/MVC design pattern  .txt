@@ -1,0 +1,19 @@
+MVC design pattern : 
+Model view and controller and model . 
+
+
+controller : middle man / traffic controller
+its like a middle man or a traffic controller . it handles the initial request ==> interacts with the view and the model to process data before it sends the final response back to the client now the model alone is responsible for fetching data and writing data to the database. 
+if any data is requested , it hands it 
+
+view =====> controller =====> model
+    <=======           <===== :
+
+contorller : - handles requests
+             - map urls to functions 
+
+model : get the data from the database then it turns it to the controller and from there the controller passes the data to a view engine or resolver which will take some kind of HTML template also called a view 
+and the model is the one that actually talks to the database and then i break the funct of routing , rendering templates putting stuff into session ("controller")===> its only responsible for accepting routes ."dealing with session" , translating the data coming in form the forms .
+
+ 	 
+             
