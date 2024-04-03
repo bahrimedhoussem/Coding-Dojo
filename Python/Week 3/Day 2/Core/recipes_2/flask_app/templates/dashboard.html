@@ -43,10 +43,10 @@
                     </td>
                     <td>{{ recipe.owner.first_name }}</td>
                     <td>
-                        <a href="/recipes/show/{{ recipe.id }}" class="btn btn-info btn-sm mr-1">View Recipe</a>
+                        <a href="/shows/show/{{ recipe.id }}" class="btn btn-info btn-sm mr-1">View show</a>
                         {% if recipe.user_id == user.id %}
-                        <a href="/recipes/edit/{{ recipe.id }}" class="btn btn-warning btn-sm mr-1">Edit</a>
-                        <a href="/recipes/delete/{{ recipe.id }}" class="btn btn-danger btn-sm">Delete</a>
+                        <a href="/shows/edit/{{ recipe.id }}" class="btn btn-warning btn-sm mr-1">Edit</a>
+                        <a href="/shows/delete/{{ recipe.id }}" class="btn btn-danger btn-sm">Delete</a>
                         {% endif %}
                     </td>
                 </tr>

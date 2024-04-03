@@ -13,7 +13,7 @@ def log_reg():
 #===========Action Route===========
 @app.route('/users/register', methods=['post'])
 def register():
-    if not User.validate_user(request.form):
+    if not User.validate(request.form):
         return redirect('/')
     
     data={
