@@ -1,0 +1,5 @@
+package com.houssem.review.models;
+
+public class Book {
+
+}
