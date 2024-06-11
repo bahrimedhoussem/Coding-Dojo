@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\houss\OneDrive\Desktop\SpringFullCrud\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1424379435.index
-\BeltReview\src\main\java
