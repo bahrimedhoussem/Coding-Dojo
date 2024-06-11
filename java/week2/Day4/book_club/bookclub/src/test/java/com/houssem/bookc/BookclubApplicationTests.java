@@ -1,4 +1,4 @@
-package com.syrine.bookc;
+package com.houssem.bookc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
